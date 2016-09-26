@@ -70,7 +70,20 @@ a:hover {
 }
 
 .uk-offcanvas-bar {
-  background: #fff;
+  background: #0a1333;
+}
+.uk-offcanvas-bar .uk-panel {
+  background: transparent;
+}
+.uk-offcanvas-bar .uk-nav-side {
+  margin-top: 15px;
+}
+.uk-offcanvas-bar .uk-nav-side .uk-nav-header {
+  color: #fff;
+  font-family: "robotolight", serif;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .uk-dropdown-navbar {

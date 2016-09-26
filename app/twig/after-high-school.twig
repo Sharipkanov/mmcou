@@ -37,14 +37,14 @@
             </div>
             <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-2-6">
                 <div class="uk-text-center">
-                    <form class="uk-form -bg-blue">
+                    <form class="uk-form -bg-blue" action="mail.php" method="post">
                         <legend><strong>Свяжитесь с нами,</strong> <br> чтобы не тратить <br> время и силы на поиск <br> очевидных решений</legend>
                         <div class="uk-form-row">
-                            <input type="text" placeholder="" id="index-fullname">
+                            <input type="text" placeholder="" id="index-fullname" name="fullname">
                             <label class="input-text" for="index-fullname">Ваше имя</label>
                         </div>
                         <div class="uk-form-row">
-                            <input type="text" placeholder="" id="index-phone" class="phone">
+                            <input type="text" placeholder="" id="index-phone" class="phone" name="phone">
                             <label class="input-text" for="index-phone">Контактный номер</label>
                         </div>
                         <button type="submit" class="uk-button uk-button-primary -button-dark">Связаться с МЦОУ</button>

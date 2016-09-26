@@ -1,4 +1,4 @@
-<header class="main-header" data-uk-sticky>
+<header id="header" class="main-header" data-uk-sticky>
     <nav class="uk-navbar">
         <div class="uk-container uk-container-center">
             <a href="" class="uk-navbar-brand"><i class="logo-header"></i></a>
@@ -9,14 +9,14 @@
             <!-- Header navigation -->
             <nav class="uk-navbar-content uk-navbar-center uk-visible-large">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">Главная</a></li>
+                    <li class="uk-active"><a href="/">Главная</a></li>
                     <li><a href="#">О нашем центре</a></li>
                     <li class="uk-parent" data-uk-dropdown="{'mode': 'click'}">
                         <a href="#">Студентам</a>
                         <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
                             <ul class="uk-nav uk-nav-navbar uk-text-left">
-                                <li><a href="#">Обучение после вуза</a></li>
-                                <li><a href="#">Профессиональная помощь студентам в решении различных вопросов</a></li>
+                                <li><a href="/after-high-school.html">Обучение после вуза</a></li>
+                                <li><a href="/s-help.html">Профессиональная помощь студентам в решении различных вопросов</a></li>
                                 <li><a href="#">Оперативный подбор вуза взамен закрытого</a></li>
                                 <li><a href="#">Публикация научных статей студентов</a></li>
                                 <li><a href="#">Прохождение преддипломной практики в России и за рубежом</a></li>
@@ -27,9 +27,9 @@
                         <a href="#">Аспирантам</a>
                         <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-bottom">
                             <ul class="uk-nav uk-nav-navbar uk-text-left">
-                                <li><a href="#">В какую аспирантуру лучше поступить?</a></li>
+                                <li><a href="/graduate-school.html">В какую аспирантуру лучше поступить?</a></li>
                                 <li><a href="#">Гарантированная отсрочка от армии по обучению в аспирантуре</a></li>
-                                <li><a href="#">Помощь аспирантам в решении различных вопросов</a></li>
+                                <li><a href="/a-help.html">Помощь аспирантам в решении различных вопросов</a></li>
                                 <li><a href="#">Статьи, научные публикации и работы аспирантов</a></li>
                                 <li><a href="#">Подбор диссертационного совета</a></li>
                             </ul>
@@ -45,30 +45,38 @@
 <!-- Mobile Nav -->
 <div id="mobile-nav" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-        <ul class="uk-nav uk-nav-parent-icon" data-uk-nav>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">О нашем центре</a></li>
-            <li class="uk-parent">
-                <a href="#">Студентам</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="#">Обучение после вуза</a></li>
-                    <li><a href="#">Профессиональная помощь студентам в решении различных вопросов</a></li>
-                    <li><a href="#">Оперативный подбор вуза взамен закрытого</a></li>
-                    <li><a href="#">Публикация научных статей студентов</a></li>
-                    <li><a href="#">Прохождение преддипломной практики в России и за рубежом</a></li>
-                </ul>
-            </li>
-            <li class="uk-parent">
-                <a href="#">Аспирантам</a>
-                <ul class="uk-nav-sub">
-                    <li><a href="#">В какую аспирантуру лучше поступить?</a></li>
-                    <li><a href="#">Гарантированная отсрочка от армии по обучению в аспирантуре</a></li>
-                    <li><a href="#">Помощь аспирантам в решении различных вопросов</a></li>
-                    <li><a href="#">Статьи, научные публикации и работы аспирантов</a></li>
-                    <li><a href="#">Подбор диссертационного совета</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
+        <div class="uk-panel uk-panel-box">
+            <div class="uk-clearfix">
+                <h3 class="uk-panel-title"><a href="" class="uk-navbar-brand"><i class="logo-footer"></i></a></h3>
+            </div>
+            <ul class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav>
+                <li><a href="/">Главная</a></li>
+                <li><a href="#">О нашем центре</a></li>
+                <li class="uk-parent">
+                    <a href="#">Студентам</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="/after-high-school.html">Обучение после вуза</a></li>
+                        <li><a href="/s-help.html">Профессиональная помощь студентам в решении различных вопросов</a></li>
+                        <li><a href="#">Оперативный подбор вуза взамен закрытого</a></li>
+                        <li><a href="#">Публикация научных статей студентов</a></li>
+                        <li><a href="#">Прохождение преддипломной практики в России и за рубежом</a></li>
+                    </ul>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">Аспирантам</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="/graduate-school.html">В какую аспирантуру лучше поступить?</a></li>
+                        <li><a href="#">Гарантированная отсрочка от армии по обучению в аспирантуре</a></li>
+                        <li><a href="/a-help.html">Помощь аспирантам в решении различных вопросов</a></li>
+                        <li><a href="#">Статьи, научные публикации и работы аспирантов</a></li>
+                        <li><a href="#">Подбор диссертационного совета</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Контакты</a></li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-nav-header">Наши контакты:</li>
+                <li><a href="tel:+7 (495) 588-80-80">+7 (495) 588-80-80</a></li>
+            </ul>
+        </div>
     </div>
 </div><!-- Mobile End -->
