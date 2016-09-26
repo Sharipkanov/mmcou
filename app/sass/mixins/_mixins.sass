@@ -1,0 +1,63 @@
+=plh
+    &:-ms-input-placeholder
+        @content
+    &:-moz-placeholder
+        @content
+    &::-moz-placeholder
+        @content
+    &::-webkit-input-placeholder
+        @content
+    &::placeholder
+        @content
+
+=transition($transition, $time)
+    -webkit-transition: $transition $time ease-in-out
+    -moz-transition: $transition $time ease-in-out
+    -ms-transition: $transition $time ease-in-out
+    -o-transition: $transition $time ease-in-out
+    transition: $transition $time ease-in-out
+
+=border_radius($size)
+    -webkit-border-radius: $size
+    -moz-border-radius: $size
+    border-radius: $size
+
+=box_sizing($type)
+    -webkit-box-sizing: $type
+    -moz-box-sizing: $type
+    box-sizing: $type
+
+=transform($transform)
+    transform: $transform
+    -ms-transform: $transform
+    -webkit-transform: $transform
+    -moz-transform: $transform
+    -o-transform: $transform
+
+=origin($origin)
+    -webkit-transform-origin: $origin
+    -moz-transform-origin: $origin
+    -o-transform-origin: $origin
+    -ms-transform-origin: $origin
+    transform-origin: $origin
+
+=trans($trans: all 0.3s ease 0s)
+    transition: $trans
+    -moz-transition: $trans
+    -webkit-transition: $trans
+    -o-transition: $trans
+    -ms-transition: $trans
+
+@import '_retina_sprites'
+
+=pos($var)
+    @if $var == tm
+        +transform(translateY(-50%))
+        top: 50%
+    @if $var == lm
+        +transform(translateX(-50%))
+        left: 50%
+    @if $var == m
+        +transform(translate3d(-50%, -50%, 0))
+        top: 50%
+        left: 50%
