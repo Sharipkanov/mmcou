@@ -1,0 +1,124 @@
+{% extends "layouts/app.twig" %}
+
+{% block content %}
+<section class="section b-welcome__gh">
+    <div class="uk-container uk-container-center">
+        <h1 class="b-welcome__title">Помощь аспирантам в решении различных вопросов</h1>
+        <p class="b-welcome__text">Московский Центр образовательных услуг (МЦОУ) предлагает помощь в решении различных вопросов, связанных с поступлением и обучением в аспирантуре</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="uk-container uk-container-center">
+        <div class="uk-grid uk-grid-large" data-uk-grid-margin>
+            <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-4-6">
+                <div>
+                    <ul class="uk-breadcrumb">
+                        <li><a href="">Главная</a></li>
+                        <li><a href="">Аспирантам</a></li>
+                        <li class="uk-active"><span>Помощь аспирантам</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="section-info smaller">
+                        Условия и ритм современной жизни таковы, что неторопливо, в свое удовольствие заниматься научной деятельностью в тиши кабинетов или лабораторий – это роскошь, требующая или высокой степени самоотречения, или значительной финансовой «подушки».
+                        <br><br>
+                        Ее могут позволить себе лишь очень немногие. Всем остальным приходится вертеться в буквальном смысле этого слова. А значит, решать множество вопросов и проблем.
+                        <br><br>
+                        Московский Центр образовательных услуг (МЦОУ) был создан с целью оказания полного содействия в их решении.
+                    </p>
+                </div>
+            </div>
+            <div class="uk-width-small-1-1 uk-width-medium-1-2 uk-width-large-2-6">
+                <div class="uk-text-center">
+                    <form class="uk-form -bg-blue">
+                        <legend><strong>Свяжитесь с нами,</strong> <br> чтобы не тратить <br> время и силы на поиск <br> очевидных решений</legend>
+                        <div class="uk-form-row">
+                            <input type="text" placeholder="" id="index-fullname">
+                            <label class="input-text" for="index-fullname">Ваше имя</label>
+                        </div>
+                        <div class="uk-form-row">
+                            <input type="text" placeholder="" id="index-phone" class="phone">
+                            <label class="input-text" for="index-phone">Контактный номер</label>
+                        </div>
+                        <button type="submit" class="uk-button uk-button-primary -button-dark">Связаться с МЦОУ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="uk-container uk-container-center">
+        <h2 class="section-title lined-bottom">Какие проблемы <strong>аспирантов</strong> и <strong>аспирантуры</strong> мы готовы решить</h2>
+        <p class="section-info uk-text-center">Обращаясь к нам, вы получаете следующие возможности:</p>
+        <div class="-margin-top-50 custom-grid">
+            <div>
+                <i class="fri fri-search"></i>
+                <p class="-text-title"><a href="#">Прохождение практики</a></p>
+                <p class="section-info smaller">
+                    Место прохождения практики студентам приходится искать самостоятельно. Чаще всего это очень хлопотное дело. При этом кому-то важно действительно получить практически навыки, а кому-то нужно просто поставить «галочку». Исходя из ваших целей и пожеланий, мы поможем вам найти российскую или зарубежную организацию, которая возьмет вас на практику.
+                </p>
+            </div>
+            <div>
+                <i class="fri fri-document"></i>
+                <p class="-text-title"><a href="#">Публикация научных работ</a></p>
+                <p class="section-info smaller">
+                    Чтобы опубликовать свою научную работу в каком-либо периодическом издании, студентам приходится буквально проходить сквозь игольное ушко. Специалисты нашего центра помощи студентам знают, как этого можно избежать – то есть опубликовать статью без лишней волокиты, обойдя все препоны.
+                </p>
+            </div>
+            <div>
+                <i class="fri fri-pero"></i>
+                <p class="-text-title"><a href="#">Подбор вариантов обучения после вуза</a></p>
+                <p class="section-info smaller">
+                    Если вы хотите продолжить свое образование, сменить специализацию, если вам просто нравится учиться или же необходимо получить дополнительную отсрочку от армии, то мы подберем для вас варианты дальнейшего обучения в другом вузе или в аспирантуре.
+                </p>
+            </div>
+            <div>
+                <i class="fri fri-student"></i>
+                <p class="-text-title"><a href="#">Подбор вуза взамен закрывшегося</a></p>
+                <p class="section-info smaller">
+                    Ваше учебное заведение закрывается? В таком случае вы можете воспользоваться предложением Минобразования и перевестись в тот вуз, который вам предложат чиновники. Но это предложение, скорее всего, не будет учитывать ваши интересы. Специалисты нашего центра помощи студентам не только подберут вуз, исходя из ваших пожеланий, но и помогут успешно перевестись.
+                </p>
+            </div>
+            <div>
+                <i class="fri fri-cunsult"></i>
+                <p class="-text-title"><a href="#">Консультации</a></p>
+                <p class="section-info smaller">
+                    Вполне возможно, что на нашем сайте помощи студентам вы не нашли интересующей вас информации. Вполне возможно, что у вас возникли другие проблемы и вопросы. Позвоните нам, и мы вместе разберемся, как лучше их решить, предоставим вам исчерпывающие консультации.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section b-page-sider">
+    <div class="uk-grid uk-grid-match uk-grid-collapse uk-grid-width-small-1-1 uk-grid-width-medium-1-2">
+        <div class="b-page-sider__img_ah">
+            <div class="gradient"></div>
+        </div>
+        <div class="b-page-sider--boxed -bg-blue">
+            <div class="b-home-form__container">
+                <h3 class="-title-text -text-light">Наша гарантия — <span> <br>мы сами работаем в этой сфере</span></h3>
+                <p class="-text -text-light">Главное, что вы получите – это поступление в лучшую аспирантуру, то есть в ту, которая в максимальной степени соответствует вашим требованиям. И это при том, что обычно бывает наоборот – абитуриентам приходится самим подстраиваться под требования аспирантуры. Чувствуете разницу?
+                    Основная наша гарантия заключается в том, что сотрудники МЦОУ сами являются работниками сферы вузовского и послевузовского образования. Причем работниками со значительным стажем.
+                    <br> <br>
+                    Это значит, что мы знаем эту сферу изнутри, хорошо представляем, как все в ней работает, а также имеем все необходимые контакты. Это позволяет нам успешно решать проблемы аспирантов, оказывать им помощь в решении различных вопросов.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="uk-container uk-container-center">
+        <h2 class="section-title lined-bottom">
+            Свяжитесь с нами, и все ваши вопросы и проблемы <br>
+            будут успешно решены!
+        </h2>
+        <p class="section-info uk-text-center">
+            <a href="tel:+7 (495) 588-80-80" class="large-link"><i class="fri fri-phone-circle"></i> +7 (495) 588-80-80</a>
+        </p>
+    </div>
+</section>
+{% endblock %}

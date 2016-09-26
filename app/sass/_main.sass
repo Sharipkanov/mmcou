@@ -1,0 +1,401 @@
+.main-header
+  padding: 16px 0
+  background: #fff
+
+  &.uk-sticky-init,
+  &.uk-active
+    box-shadow: 0 0 5px #000
+
+  .uk-navbar
+    background: #fff
+
+  .header-phone
+    font-size: 22px
+    font-weight: 500
+    letter-spacing: 0.7px
+    color: #0a1333
+    vertical-align: middle
+    margin-left: 5px
+
+    @media only screen and (max-width : 1070px)
+      font-size: 17px
+
+    &:hover
+      text-decoration: none
+
+.section
+  padding: 67px 0
+
+  strong
+    font-family: 'robotoregular', serif
+    font-weight: 300
+
+.section-title
+  font-size: 36px
+  font-weight: 300
+  line-height: 1.2
+  text-align: center
+  color: $dark
+  font-family: 'robotolight', serif
+
+.section-info
+  font-family: 'robotolight', serif
+  font-size: 18px
+  font-weight: 300
+  line-height: 1.56
+  color: #4b4b4b
+  margin-top: 22px
+
+  &.smaller
+    font-size: 15px
+
+  .large-link
+    font-size: 44px
+    font-weight: 500
+    line-height: 1.25
+    letter-spacing: 1px
+    color: #0a1333
+    text-decoration: none
+    
+    &:hover
+      text-decoration: none
+
+.lined-bottom
+  padding-bottom: 37px
+  position: relative
+
+  &:after
+    position: absolute
+    width: 182px
+    height: 2px
+    background: #1e88f5
+    content: ''
+    left: 50%
+    bottom: 0
+    margin-left: -91px
+
+.circle
+  width: 100px
+  height: 100px
+  +border_radius(50%)
+  background: #cfe4fe
+  text-align: center
+  line-height: 100px
+
+.opportunities
+  margin-top: 80px
+
+  > li
+    font-size: 0
+
+    > div
+      width: calc(100% - 100px)
+      display: inline-block
+      padding-left: 16px
+      padding-top: 16px
+
+      &:first-child
+        width: 100px
+        padding-left: 0
+        padding-top: 0
+
+    @media only screen and (max-width : 480px)
+      > div
+        display: block
+        width: 100%
+        text-align: center
+
+        &:first-child
+          margin: 0 auto 20px auto
+
+  .opportunities_info_title
+    font-size: 22px
+    color: $dark
+    line-height: 1.27
+
+  .opportunities_info_text
+    font-size: 15px
+    font-weight: 300
+    line-height: 1.6
+    color: #4b4b4b
+    font-family: 'robotolight', serif
+
+.b-comments
+  max-width: 560px
+  min-width: 280px
+  margin: 0 auto
+
+  .comment
+    text-align: center
+    padding: 45px 0
+
+    &__info
+      border-radius: 4px
+      background-color: #ffffff
+      border: solid 1px #1e88f5
+      padding: 16px
+      font-size: 16px
+      font-weight: 300
+      line-height: 1.56
+      color: #4b4b4b
+      font-family: 'robotolight_italic', serif
+      position: relative
+
+      @media only screen and (max-width : 767px)
+        padding: 25px 16px 16px
+
+      &::after
+        position: absolute
+        left: 50%
+        margin-left: -7.5px
+        bottom: -9px
+        width: 15px
+        height: 15px
+        content: ''
+        border-left: 1px solid #1e88f5
+        border-bottom: 1px solid #1e88f5
+        +transform(rotate(-45deg))
+        background: #fff
+
+      .comma
+        position: absolute
+        top: 10px
+        left: 10px
+
+    &__fullname
+      margin-top: 20px
+      font-size: 15px
+      line-height: 1.67
+      color: #a6a6a6
+
+    &__avatar
+      max-width: 70px
+
+.main-footer
+  a
+    color: $light
+    &:hover
+      text-decoration: none
+
+  .footer-top
+    background: $dark
+    padding: 65px 0
+
+    @media only screen and (max-width : 767px)
+      padding: 25px 0
+
+    .uk-list
+      @media only screen and (max-width : 767px)
+        border-top: 1px solid $light
+        padding-top: 18px
+
+      li
+        color: $lighter
+        margin-bottom: 14px
+        a
+          font-size: 14px
+          font-weight: 300
+          line-height: 1.29
+          letter-spacing: 0.5px
+
+        &:hover,
+        &.uk-active
+          a
+            color: $light
+            text-decoration: underline
+
+        &:first-child
+          font-size: 20px
+          letter-spacing: 0.7px
+          margin-bottom: 18px
+
+
+  .footer-bottom
+    background: $darker
+    padding: 15px 0
+    font-size: 14px
+
+    .footer-copyright
+      @media only screen and (max-width : 767px)
+        text-align: center
+
+    .footer-info
+      text-align: right
+      font-size: 13px
+
+      @media only screen and (max-width : 767px)
+        text-align: center
+
+.logo-header
+  +retina-bg('logo-header.png', 'logo-header@2x.png', 'autosize')
+
+.logo-footer
+  +retina-bg('logo-footer.png', 'logo-footer@2x.png', 'autosize')
+
+.b-welcome
+  padding: 120px 0
+
+  &__index
+    +retina-bg('bg.png', 'bg@2x.png')
+    background-size: cover
+    background-position: center center
+
+  &__ahs
+    +retina-bg('ahs-bg.png', 'ahs-bg@2x.png')
+    background-size: cover
+    background-position: center center
+
+  &__gh
+    +retina-bg('gh-bg.png', 'gh-bg@2x.png')
+    background-size: cover
+    background-position: center center
+
+  &__title
+    font-family: 'robotomedium', serif
+    font-size: 44px
+    letter-spacing: 1px
+    color: #ffffff
+    text-align: center
+    font-weight: 500
+    line-height: 1.3
+
+    @media only screen and (max-width : 767px)
+      font-size: 30px
+
+    span
+      font-family: 'robotolight', serif
+      display: block
+      font-weight: 300
+
+  &__text
+    font-size: 24px
+    font-weight: 300
+    line-height: 1.33
+    text-align: center
+    color: #ffffff
+    font-family: 'robotolight', serif
+
+  &__btns
+    margin-top: 91px
+
+    .uk-button
+      display: inline-block
+      margin: 5px 25px
+
+      @media only screen and (max-width : 767px)
+        margin: 5px 0
+
+.b-home-form
+  padding: 0
+
+  &__container
+    max-width: 420px
+
+    @media only screen and (max-width : 767px)
+      max-width: 100%
+
+  &--boxed
+    padding: 114px 15px 47px 67px
+
+    @media only screen and (max-width : 959px)
+      padding: 30px
+
+    @media only screen and (max-width : 767px)
+      padding: 50px 15px
+
+  &__img
+    +retina-bg('bitmap.png', 'bitmap@2x.png')
+    background-size: cover
+    position: relative
+
+    .gradient
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-image: linear-gradient(to top, #071a2e, rgba(24, 79, 136, 0.3))
+
+  .uk-form
+    max-width: 370px
+    padding: 0
+    +border_radius(0)
+
+    legend
+      font-size: 36px
+      font-weight: 300
+      line-height: 1.33
+      letter-spacing: 1.3px
+      color: #ffffff
+      font-family: 'robotolight', serif
+      margin-bottom: 36px
+      text-align: left
+
+    strong
+      font-family: 'robotomedium', serif
+
+.b-page-sider
+  padding: 0
+
+  &__container
+    max-width: 420px
+
+    @media only screen and (max-width : 767px)
+      max-width: 100%
+
+  &--boxed
+    padding: 60px 15px 60px 115px
+
+    @media only screen and (max-width : 959px)
+      padding: 30px
+
+    @media only screen and (max-width : 767px)
+      padding: 50px 15px
+
+  &__img_ahs
+    +retina-bg('bitmap1.png', 'bitmap1@2x.png')
+    background-size: cover
+    position: relative
+
+  &__img_gh
+    +retina-bg('bitmap2.png', 'bitmap1@2x.png')
+    background-size: cover
+    position: relative
+
+  &__img_ah
+    +retina-bg('bitmap3.png', 'bitmap3@2x.png')
+    background-size: cover
+    position: relative
+
+  &__img_sh
+    +retina-bg('bitmap5.png', 'bitmap5@2x.png')
+    background-size: cover
+    position: relative
+
+    .gradient
+      position: absolute
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      background-image: linear-gradient(to top, #071a2e, rgba(24, 79, 136, 0.3))
+
+
+.custom-grid
+  font-size: 0
+  text-align: center
+
+  > div
+    font-size: 16px
+    display: inline-block
+    max-width: 33.33%
+    text-align: center
+    padding: 20px
+    vertical-align: top
+
+    @media only screen and (max-width : 767px)
+      max-width: 100%
+      padding: 0
+      margin-top: 20px
+
+

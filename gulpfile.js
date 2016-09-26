@@ -71,7 +71,7 @@ gulp.task('twig', function () {
                     setTimeout(function () {
                         gulp.src(sources.twig.temp_dist, {read: false})
                             .pipe(clean());
-                    }, 500);
+                    }, 1000);
                 }))
                 .pipe(connect.reload());
         }));
@@ -87,7 +87,8 @@ gulp.task('compass', function () {
       .pipe(compass({
           sass: sources.sass.dist,
           css: sources.css.dist,
-          js: sources.js.dist
+          js: sources.js.dist,
+          image: 'app/images'
       }))
       .pipe(gulp.dest(sources.css.dist))
       .pipe(connect.reload());

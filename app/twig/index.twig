@@ -1,5 +1,139 @@
 {% extends "layouts/app.twig" %}
 
 {% block content %}
-    this is index page content
+<section class="section b-welcome__index">
+    <div class="uk-container uk-container-center">
+        <h1 class="b-welcome__title">Московский Центр образовательных услуг (МЦОУ): <span>свои люди в системе вузовского и послевузовского образования</span></h1>
+        <p class="b-welcome__text">Помогаем студентам и аспирантам в решении различных вопросов и проблем</p>
+        <div class="b-welcome__btns uk-text-center">
+            <a href="#" class="uk-button uk-button-primary">Студентам</a>
+            <a href="#" class="uk-button uk-button-primary -button-light">Аспирантам</a>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="uk-container uk-container-center">
+        <h2 class="section-title lined-bottom">
+            Какие возможности вы получите, обратившись в наш центр
+        </h2>
+        <p class="section-info uk-text-center">
+            В процессе поступления и обучения в вузе или аспирантуре у вас могут возникать самые разные вопросы и <br>
+            проблемы, которые вы не сможете решить своими силами - иногда на это просто нет времени. Для этих целей <br>
+            был создан наш центр образовательных услуг (Москва). Нашими сотрудниками являются действующие <br>
+            преподаватели, профессора и доктора наук.
+        </p>
+        <p class="section-info uk-text-center">Обращаясь к нам, вы получаете следующие возможности:</p>
+        <ul class="opportunities uk-grid uk-grid-match uk-grid-large uk-grid-width-small-1-1 uk-grid-width-medium-1-2" data-uk-grid-margin>
+            <li>
+                <div class="circle"><i class="fri fri-rocket"></i></div>
+                <div class="opportunities_info">
+                    <h4 class="opportunities_info_title">Возможность достичь поставленных целей без лишних затрат</h4>
+                    <p class="opportunities_info_text">В первую очередь под затратами подразумевается ваше время и силы. А цели могут быть разными: для одного это продолжение образования или отсрочка от армии, для другого – успешная защита диссертации или публикация научной работы и т.д.</p>
+                </div>
+            </li>
+            <li>
+                <div class="circle"><i class="fri fri-flag"></i></div>
+                <div class="opportunities_info">
+                    <h4 class="opportunities_info_title">Возможность найти выход из сложной ситуации</h4>
+                    <p class="opportunities_info_text">То, что кажется вам очень сложным, очень просто решается специалистами нашего
+                        <a href="#">центра образовательных услуг</a> (Москва)</p>
+                </div>
+            </li>
+            <li>
+                <div class="circle"><i class="fri fri-bullhorn"></i></div>
+                <div class="opportunities_info">
+                    <h4 class="opportunities_info_title">Возможность получить информацию из первых рук</h4>
+                    <p class="opportunities_info_text">то есть профессиональную консультацию по всем вопросам, связанным с обучением в вузе и в аспирантуре</p>
+                </div>
+            </li>
+            <li>
+                <div class="circle"><i class="fri fri-hand"></i></div>
+                <div class="opportunities_info">
+                    <h4 class="opportunities_info_title">Возможность дизбавиться от решения ряда организационных вопросов</h4>
+                    <p class="opportunities_info_text">которые очень часто отвлекают вас и осложняют учебу в вузе и аспирантуре</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="section b-home-form">
+    <div class="uk-grid uk-grid-match uk-grid-collapse uk-grid-width-small-1-1 uk-grid-width-medium-1-2">
+        <div class="b-home-form__img">
+            <div class="gradient"></div>
+        </div>
+        <div class="b-home-form--boxed -bg-blue">
+            <div class="b-home-form__container">
+                <form class="uk-form">
+                    <fieldset>
+                        <legend><strong>Свяжитесь с нами,</strong> <br> чтобы не тратить <br> время и силы на поиск <br> очевидных решений</legend>
+                        <div class="uk-form-row">
+                            <input type="text" placeholder="" id="index-fullname">
+                            <label class="input-text" for="index-fullname">Ваше имя</label>
+                        </div>
+                        <div class="uk-form-row">
+                            <input type="text" placeholder="" id="index-phone" class="phone">
+                            <label class="input-text" for="index-phone">Контактный номер</label>
+                        </div>
+                        <button type="submit" class="uk-button uk-button-primary -button-dark">Связаться с МЦОУ</button>
+                    </fieldset>
+                </form>
+                <div class="uk-text-right"><i class="fri fri-paper-plain"></i></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="uk-container uk-container-center">
+        <h2 class="section-title lined-bottom">
+            Отзывы о нашем образовательном центре
+        </h2>
+        <p class="section-info uk-text-center">
+            Наш центр образовательных услуг (Москва) готов оказать всестороннюю помощь студентам <br>
+            и аспирантам в решении различных вопросов и проблем. <br>
+            Оперативно. Профессионально. Качественно.
+        </p>
+        <div>
+            <div data-uk-slideset="{default: 1}">
+                <div class="uk-slidenav-position">
+                    <ul class="b-comments uk-grid uk-slideset">
+                        <li class="comment">
+                            <div class="comment__info">
+                                <div class="comma">
+                                    <i class="fri fri-comma"></i>
+                                </div>
+                                <p>Все сотрудники компании — это дипломированные специалисты, квалифицированные преподаватели и эксперты с большим стажем практической деятельности. Действует индивидуальный подход к каждому клиенту.</p>
+                            </div>
+                            <p class="comment__fullname">Мария Кириллова</p>
+                            <img src="images/avatar@2x.png" alt="" class="comment__avatar"> <!-- 144x144 -->
+                        </li>
+                        <li class="comment">
+                            <div class="comment__info">
+                                <div class="comma">
+                                    <i class="fri fri-comma"></i>
+                                </div>
+                                <p>Все сотрудники компании — это дипломированные специалисты, квалифицированные преподаватели и эксперты с большим стажем практической деятельности. Действует индивидуальный подход к каждому клиенту.</p>
+                            </div>
+                            <p class="comment__fullname">Мария Кириллова</p>
+                            <img src="images/avatar@2x.png" alt="" class="comment__avatar"> <!-- 144x144 -->
+                        </li>
+                        <li class="comment">
+                            <div class="comment__info">
+                                <div class="comma">
+                                    <i class="fri fri-comma"></i>
+                                </div>
+                                <p>Все сотрудники компании — это дипломированные специалисты, квалифицированные преподаватели и эксперты с большим стажем практической деятельности. Действует индивидуальный подход к каждому клиенту.</p>
+                            </div>
+                            <p class="comment__fullname">Мария Кириллова</p>
+                            <img src="images/avatar@2x.png" alt="" class="comment__avatar"> <!-- 144x144 -->
+                        </li>
+                    </ul>
+                </div>
+                <ul class="uk-slideset-nav uk-dotnav uk-flex-center"></ul>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
