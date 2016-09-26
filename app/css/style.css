@@ -503,7 +503,7 @@ a:hover {
 }
 
 .fri-arrow-top {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
+  background-image: url('../images/icons-s4aabac88cf.png');
   background-position: 0 0;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -515,7 +515,7 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-arrow-top {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
     background-position: 0 0;
     height: 19px;
@@ -524,7 +524,7 @@ a:hover {
 }
 
 .fri-bullhorn {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
+  background-image: url('../images/icons-s4aabac88cf.png');
   background-position: 0 -24px;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -535,7 +535,7 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-bullhorn {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
     background-position: 0 -24px;
     height: 45px;
@@ -544,8 +544,8 @@ a:hover {
 }
 
 .fri-comma {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -74px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -119px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -555,17 +555,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-comma {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -74px;
+    background-position: 0 -119px;
     height: 27px;
     width: 34px;
   }
 }
 
 .fri-flag {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -241px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -286px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -575,17 +575,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-flag {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -241px;
+    background-position: 0 -286px;
     height: 45px;
     width: 44px;
   }
 }
 
 .fri-hand {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -291px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -336px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -595,17 +595,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-hand {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -291px;
+    background-position: 0 -336px;
     height: 45px;
     width: 41px;
   }
 }
 
 .fri-paper-plain {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -431px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -476px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -615,17 +615,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-paper-plain {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -431px;
+    background-position: 0 -476px;
     height: 96px;
     width: 100px;
   }
 }
 
 .fri-phone {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -627px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -672px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -635,17 +635,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-phone {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -627px;
+    background-position: 0 -672px;
     height: 16px;
     width: 9px;
   }
 }
 
 .fri-rocket {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -648px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -693px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -655,17 +655,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-rocket {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -648px;
+    background-position: 0 -693px;
     height: 45px;
     width: 45px;
   }
 }
 
 .fri-cunsult {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -106px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -151px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -675,96 +675,16 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-cunsult {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -106px;
+    background-position: 0 -151px;
     height: 40px;
     width: 41px;
   }
 }
 
 .fri-search {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -698px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  height: 40px;
-  width: 40px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
-  .fri-search {
-    background-image: url('../images/icons-2x-s46a286c777.png');
-    background-size: 100px auto;
-    background-position: 0 -698px;
-    height: 40px;
-    width: 40px;
-  }
-}
-
-.fri-home {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -341px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  height: 40px;
-  width: 41px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
-  .fri-home {
-    background-image: url('../images/icons-2x-s46a286c777.png');
-    background-size: 100px auto;
-    background-position: 0 -341px;
-    height: 40px;
-    width: 41px;
-  }
-}
-
-.fri-open-book {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -386px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  height: 40px;
-  width: 42px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
-  .fri-open-book {
-    background-image: url('../images/icons-2x-s46a286c777.png');
-    background-size: 100px auto;
-    background-position: 0 -386px;
-    height: 40px;
-    width: 42px;
-  }
-}
-
-.fri-cup {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -151px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: middle;
-  height: 40px;
-  width: 35px;
-}
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
-  .fri-cup {
-    background-image: url('../images/icons-2x-s46a286c777.png');
-    background-size: 100px auto;
-    background-position: 0 -151px;
-    height: 40px;
-    width: 35px;
-  }
-}
-
-.fri-student {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
+  background-image: url('../images/icons-s4aabac88cf.png');
   background-position: 0 -743px;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -774,8 +694,8 @@ a:hover {
   width: 40px;
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
-  .fri-student {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+  .fri-search {
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
     background-position: 0 -743px;
     height: 40px;
@@ -783,9 +703,89 @@ a:hover {
   }
 }
 
+.fri-home {
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -386px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 41px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
+  .fri-home {
+    background-image: url('../images/icons-2x-sc0edd29748.png');
+    background-size: 100px auto;
+    background-position: 0 -386px;
+    height: 40px;
+    width: 41px;
+  }
+}
+
+.fri-open-book {
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -431px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 42px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
+  .fri-open-book {
+    background-image: url('../images/icons-2x-sc0edd29748.png');
+    background-size: 100px auto;
+    background-position: 0 -431px;
+    height: 40px;
+    width: 42px;
+  }
+}
+
+.fri-cup {
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -196px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 35px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
+  .fri-cup {
+    background-image: url('../images/icons-2x-sc0edd29748.png');
+    background-size: 100px auto;
+    background-position: 0 -196px;
+    height: 40px;
+    width: 35px;
+  }
+}
+
+.fri-student {
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -788px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
+  .fri-student {
+    background-image: url('../images/icons-2x-sc0edd29748.png');
+    background-size: 100px auto;
+    background-position: 0 -788px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
 .fri-pero {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -532px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -577px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -795,17 +795,17 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-pero {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -532px;
+    background-position: 0 -577px;
     height: 40px;
     width: 38px;
   }
 }
 
 .fri-document {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -196px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -241px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -815,17 +815,37 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-document {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -196px;
+    background-position: 0 -241px;
     height: 40px;
     width: 29px;
   }
 }
 
+.fri-check {
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -74px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+}
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
+  .fri-check {
+    background-image: url('../images/icons-2x-sc0edd29748.png');
+    background-size: 100px auto;
+    background-position: 0 -74px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
 .fri-phone-circle {
-  background-image: url('../images/icons-sfb54eaf5ed.png');
-  background-position: 0 -577px;
+  background-image: url('../images/icons-s4aabac88cf.png');
+  background-position: 0 -622px;
   background-repeat: no-repeat;
   overflow: hidden;
   display: inline-block;
@@ -836,9 +856,9 @@ a:hover {
 }
 @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (min-resolution: 1.5dppx) {
   .fri-phone-circle {
-    background-image: url('../images/icons-2x-s46a286c777.png');
+    background-image: url('../images/icons-2x-sc0edd29748.png');
     background-size: 100px auto;
-    background-position: 0 -577px;
+    background-position: 0 -622px;
     height: 45px;
     width: 45px;
   }
