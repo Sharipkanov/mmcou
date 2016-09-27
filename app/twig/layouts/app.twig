@@ -8,9 +8,12 @@
     <title>Title goes here...</title>
 
     <!-- Stylesheets -->
+    <!--build:css css/main.css-->
     {% include "stylesheets.twig" %}
+    <!--endbuild-->
 </head>
 <body>
+    <div id="header"></div>
     <!-- Header block -->
     {% include "header.twig" %}
     <!-- Header block end -->
@@ -24,6 +27,8 @@
     <!-- Footer block end -->
 
     <!-- Scripts -->
+    <!--build:js js/main.js-->
     {% include "scripts.twig" %}
+    <!--endbuild-->
 </body>
 </html>
